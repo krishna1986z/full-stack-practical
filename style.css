@@ -1,0 +1,182 @@
+body {
+    font-family: Arial;
+    background-color: lightgray;
+    margin: 0;
+}
+
+/* Navigation */
+nav {
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+nav a {
+    color: white;
+    text-decoration: none;
+    margin: 15px;
+    font-size: 18px;
+}
+
+nav a:hover {
+    color: yellow;
+}
+
+@media (max-width: 600px)
+ {
+
+    nav a {
+        display: block;
+        margin: 10px;
+    }
+
+    header h1 {
+        font-size: 25px;
+    }
+
+    header img {
+        width: 120px;
+        height: 120px;
+    }
+
+    section {
+        width: 85%;
+        padding: 15px;
+    }
+
+    .skills {
+        flex-direction: column;
+    }
+
+}
+
+
+.conterner{
+
+   
+    align-items: center;
+    justify-content: center;
+    }
+
+    .abed{
+        display: flex;
+    }
+
+    .skho{
+        display: flex;
+    }
+
+    .coli{
+        display: flex;
+    }
+
+
+/* Header */
+header {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 30px;
+}
+
+header img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 35px;
+}
+
+header p {
+    font-size: 18px;
+}
+
+/* Sections */
+section {
+    background-color: white;
+    margin: 20px auto;
+    padding: 20px;
+    width: 30%;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px gray;
+    transition: 0.3s;
+}
+
+section:hover {
+    transform: translateY(-5px);
+}
+/* Section Heading */
+section h2 {
+    color: darkblue;
+    border-bottom: 2px solid darkblue;
+    padding-bottom: 5px;
+}
+
+/* Lists */
+section ul {
+    line-height: 2;
+}
+
+/* Skills */
+.skills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    padding: 0;
+}
+
+.skills li {
+    list-style: none;
+    background-color: lightblue;
+    padding: 10px 15px;
+    border-radius: 20px;
+    transition: 0.3s;
+}
+
+.skills li:hover {
+    transform: translateY(-5px);
+}
+/* Contact Button */
+.button {
+    display: inline-block;
+    background-color: black;
+    color: white;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.button:hover {
+    background-color: gray;
+}
+
+/* Footer */
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 10px;
+}
+
+.link2{
+    text-decoration: none;
+    color: black;
+    margin-top: 25px;
+}
+
+svg{
+
+    padding-top: 20px;
+
+}
+
+.abc {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    padding-right: 25px;
+    gap:20px;
+}
